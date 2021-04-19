@@ -1,0 +1,301 @@
+[{
+    "id": "490",
+       "name": "Loap Infery Kids Winter Jacket",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/Loap_infery_kids_winter_jacket_blue_gray.jpg",
+       "type": "women-cloths",
+       "unit": "1 pc(s)",
+       "categories": [
+         {
+           "id": "23",
+           "name": "Outer Wear"
+         },
+         {
+           "id": "24",
+           "name": "Jacket"
+         }
+       ],
+       "price": 60,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Black bandhgala, has a mandarin collar, a full button placket, long sleeves, three pockets, double vented back hem, and has an attached lining",
+       "slug": "Loap_infery_kids_winter_jacket_blue_gray"
+     },
+     {
+       "id": "299",
+       "name": "Heritage Special Long Life Milk",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg",
+       "type": "grocery",
+       "unit": " 2 lb",
+       "categories": [
+         {
+           "id": "69",
+           "name": "Dairy"
+         },
+         {
+           "id": "72",
+           "name": "Milk"
+         }
+       ],
+       "price": 5,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Milk is a nutrient-rich, white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for infant mammals (including humans who are breastfed) before they are able to digest other types of food.",
+       "slug": "milk_heritage"
+     },
+     {
+       "id": "60",
+       "name": "Dorothy Perkins Self Striped A Line Dress",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/DOROTHY_PERKINS.jpg",
+       "type": "women-cloths",
+       "unit": "1 pc(s)",
+       "categories": [
+         {
+           "id": "19",
+           "name": "Women Dress"
+         },
+         {
+           "id": "22",
+           "name": "Single Color"
+         }
+       ],
+       "price": 125,
+       "salePrice": 100,
+       "discountInPercent": 20,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Rust red self-striped knitted A-line dress, has a V-neck with button detailing, three-quarter sleeves, flared hem",
+       "slug": "dorothy-perkins-self-striped-a-line-dress"
+     },
+     {
+       "id": "349",
+       "name": "Club House La Grille Seasoning",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/club_house_la_grille_smouldering_smoked_applewood_seasoning.jpg",
+       "type": "grocery",
+       "unit": " 1 pc(s)",
+       "categories": [
+         {
+           "id": "76",
+           "name": "Cooking"
+         },
+         {
+           "id": "80",
+           "name": "Spices"
+         }
+       ],
+       "price": 2,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "A spice is a seed, fruit, root, bark, or other plant substance primarily used for flavoring, coloring or preserving food. Spices are distinguished from herbs, which are the leaves, flowers, or stems of plants used for flavoring or as a garnish.",
+       "slug": "club_house_la_grille_smouldering_smoked_applewood_seasoning"
+     },
+     {
+       "id": "324",
+       "name": "Eva Corn Oil",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg",
+       "type": "grocery",
+       "unit": " 3 lb",
+       "categories": [
+         {
+           "id": "76",
+           "name": "Cooking"
+         },
+         {
+           "id": "77",
+           "name": "Oil"
+         }
+       ],
+       "price": 8,
+       "salePrice": 6.4,
+       "discountInPercent": 20,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "An oil is any nonpolar chemical substance that is a viscous liquid at ambient temperatures and is both hydrophobic (does not mix with water, literally water fearing) and lipophilic (mixes with other oils, literally fat loving). Oils have a high carbon and hydrogen content and are usually flammable and surface active.",
+       "slug": "oil_eva"
+     },
+     {
+       "id": "126",
+       "name": "Snikers Snack Size",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/snikers_snacksize.jpg",
+       "type": "grocery",
+       "unit": " 0.1 lb",
+       "categories": [
+         {
+           "id": "48",
+           "name": "Snacks"
+         },
+         {
+           "id": "50",
+           "name": "Chocolates"
+         }
+       ],
+       "price": 3,
+       "salePrice": 2.4,
+       "discountInPercent": 20,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Chocolate is a usually sweet, brown food preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, or used as a flavoring ingredient in other foods. ",
+       "slug": "snikers_snacksize"
+     },
+     {
+       "id": "227",
+       "name": "Air Wick Essential Oils",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg",
+       "type": "grocery",
+       "unit": " 1 pc(s)",
+       "categories": [
+         {
+           "id": "62",
+           "name": "Home Cleaning"
+         },
+         {
+           "id": "63",
+           "name": "Air Freshner"
+         }
+       ],
+       "price": 20,
+       "salePrice": 15,
+       "discountInPercent": 25,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Air fresheners are consumer products that typically emit fragrance and are used in homes or commercial interiors such as restrooms, foyers, hallways, vestibules and other smaller indoor areas, as well as larger areas such as hotel lobbies, auto dealerships, medical facilities, public arenas and other large interior spaces. ",
+       "slug": "air_freshner_air_wick_essential_oils"
+     },
+     {
+       "id": "23",
+       "name": "Snapper",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/snapper.jpg",
+       "type": "grocery",
+       "unit": "1 pc(s)",
+       "categories": [
+         {
+           "id": "9",
+           "name": "Meat Fish"
+         },
+         {
+           "id": "11",
+           "name": "Dried Fish"
+         }
+       ],
+       "price": 40,
+       "salePrice": 32,
+       "discountInPercent": 20,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "The northern red snapper is a species of snapper native to the western Atlantic Ocean including the Gulf of Mexico, where it inhabits environments associated with reefs. This species is commercially important and is also sought-after as a game fish.",
+       "slug": "snapper"
+     },
+     {
+       "id": "175",
+       "name": "Taco Bell Diablo Sauce",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg",
+       "type": "grocery",
+       "unit": " 7 lb",
+       "categories": [
+         {
+           "id": "48",
+           "name": "Snacks"
+         },
+         {
+           "id": "55",
+           "name": "Sauce"
+         }
+       ],
+       "price": 8,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "In cooking, a sauce is a liquid, cream, or semi-solid food, served on or used in preparing other foods. Most sauces are not normally consumed by themselves; they add flavor, moisture, and visual appeal to a dish.",
+       "slug": "taco_bell_diablo_sauce"
+     },
+     {
+       "id": "504",
+       "name": "Raas Waist Coat",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/Raas.jpg",
+       "type": "women-cloths",
+       "unit": "1 pc(s)",
+       "categories": [
+         {
+           "id": "23",
+           "name": "Outer Wear"
+         },
+         {
+           "id": "27",
+           "name": "Waist Coat"
+         }
+       ],
+       "price": 100,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Black bandhgala, has a mandarin collar, a full button placket, long sleeves, three pockets, double vented back hem, and has an attached lining",
+       "slug": "Raas"
+     },
+     {
+       "id": "362",
+       "name": "The Village Bakery Soft White Bread",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg",
+       "type": "grocery",
+       "unit": " 1 lb",
+       "categories": [
+         {
+           "id": "82",
+           "name": "Breakfast"
+         },
+         {
+           "id": "83",
+           "name": "Bread"
+         }
+       ],
+       "price": 4,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "Bread is a staple food prepared from a dough of flour and water, usually by baking. Throughout recorded history it has been a prominent food in large parts of the world and is one of the oldest man-made foods, having been of significant importance since the dawn of agriculture.",
+       "slug": "the_village_bakery_danish_Soft_White_Toastie"
+     },
+     {
+       "id": "523",
+       "name": "ILU Glitter",
+       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/ILU003.jpg",
+       "type": "makeup",
+       "unit": "1 pc",
+       "categories": [
+         {
+           "id": "39",
+           "name": "Eyes"
+         },
+         {
+           "id": "41",
+           "name": "Glitter"
+         }
+       ],
+       "price": 28,
+       "salePrice": 0,
+       "discountInPercent": 0,
+       "per_unit": null,
+       "views": null,
+       "sales": null,
+       "description": "This brilliantly long-wearing sparkle eye shadow combines the perfect mix of pearl and glitter to lavish eyes with incredible luster and shimmer.  With its uniquely lightunit, water-infused texture, Glitter & Glow glides on effortlessly, then dries down smoothly, locking in maximum sparkle with minimal fallout, for eyes with a real wow! factor.",
+       "slug": "ILU003"
+     }
+]

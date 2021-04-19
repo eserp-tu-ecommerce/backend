@@ -1,0 +1,54 @@
+type Query {
+    "Lista de las Categorias"
+    categorias: [Category]
+    #  "Lista de Productos"
+    productos: [Product]
+}
+
+
+type Category {
+  id: ID!
+  name: String!
+  type: String
+  icon: String!
+  slug: String!
+  number_of_product: Float
+  creation_date: String!
+}
+      
+type Product {
+  id: ID!
+  name: String!
+  image: String!
+  type: String!
+  unit: String!
+  categories: [Category!]!
+  price: Float!
+  salePrice: Float!
+  discountInPercent: Int!
+  per_unit: Int
+  quantity: Int!
+  views: Int
+  sales: Int
+  description: String
+  #creation_date: String!
+  slug: String!
+}
+
+type Address {
+  id: ID!
+  type: String!
+  title: String!
+  location: String!
+}
+
+
+
+enum CategoryNum {
+    POLLOS
+    PAPAS FRITAS
+    PROMOCIONES
+    BEBESTIBLES
+    OTROS
+}
+
