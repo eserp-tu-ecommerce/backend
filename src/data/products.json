@@ -1,7 +1,7 @@
 [{
     "id": "490",
        "name": "Loap Infery Kids Winter Jacket",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/Loap_infery_kids_winter_jacket_blue_gray.jpg",
+       "image": "/Loap_infery_kids_winter_jacket_blue_gray.jpg",
        "type": "women-cloths",
        "unit": "1 pc(s)",
        "categories": [
@@ -26,7 +26,7 @@
      {
        "id": "299",
        "name": "Heritage Special Long Life Milk",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/milk_heritage.jpg",
+       "image": "/milk_heritage.jpg",
        "type": "grocery",
        "unit": " 2 lb",
        "categories": [
@@ -51,7 +51,7 @@
      {
        "id": "60",
        "name": "Dorothy Perkins Self Striped A Line Dress",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/DOROTHY_PERKINS.jpg",
+       "image": "/DOROTHY_PERKINS.jpg",
        "type": "women-cloths",
        "unit": "1 pc(s)",
        "categories": [
@@ -76,7 +76,7 @@
      {
        "id": "349",
        "name": "Club House La Grille Seasoning",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/club_house_la_grille_smouldering_smoked_applewood_seasoning.jpg",
+       "image": "/club_house_la_grille_smouldering_smoked_applewood_seasoning.jpg",
        "type": "grocery",
        "unit": " 1 pc(s)",
        "categories": [
@@ -101,7 +101,7 @@
      {
        "id": "324",
        "name": "Eva Corn Oil",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/oil_eva.jpg",
+       "image": "/oil_eva.jpg",
        "type": "grocery",
        "unit": " 3 lb",
        "categories": [
@@ -126,7 +126,7 @@
      {
        "id": "126",
        "name": "Snikers Snack Size",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/snikers_snacksize.jpg",
+       "image": "/snikers_snacksize.jpg",
        "type": "grocery",
        "unit": " 0.1 lb",
        "categories": [
@@ -151,7 +151,7 @@
      {
        "id": "227",
        "name": "Air Wick Essential Oils",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/air_freshner_air_wick_essential_oils.jpg",
+       "image": "/air_freshner_air_wick_essential_oils.jpg",
        "type": "grocery",
        "unit": " 1 pc(s)",
        "categories": [
@@ -176,7 +176,7 @@
      {
        "id": "23",
        "name": "Snapper",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/snapper.jpg",
+       "image": "/snapper.jpg",
        "type": "grocery",
        "unit": "1 pc(s)",
        "categories": [
@@ -201,7 +201,7 @@
      {
        "id": "175",
        "name": "Taco Bell Diablo Sauce",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/taco_bell_diablo_sauce.jpg",
+       "image": "/taco_bell_diablo_sauce.jpg",
        "type": "grocery",
        "unit": " 7 lb",
        "categories": [
@@ -226,7 +226,7 @@
      {
        "id": "504",
        "name": "Raas Waist Coat",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/Raas.jpg",
+       "image": "/Raas.jpg",
        "type": "women-cloths",
        "unit": "1 pc(s)",
        "categories": [
@@ -251,7 +251,7 @@
      {
        "id": "362",
        "name": "The Village Bakery Soft White Bread",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/the_village_bakery_danish_Soft_White_Toastie.jpg",
+       "image": "/the_village_bakery_danish_Soft_White_Toastie.jpg",
        "type": "grocery",
        "unit": " 1 lb",
        "categories": [
@@ -276,7 +276,7 @@
      {
        "id": "523",
        "name": "ILU Glitter",
-       "image": "https://s3.amazonaws.com/redqteam.com/pickbazar/ILU003.jpg",
+       "image": "/ILU003.jpg",
        "type": "makeup",
        "unit": "1 pc",
        "categories": [

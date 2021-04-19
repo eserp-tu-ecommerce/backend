@@ -1,10 +1,46 @@
 type Query {
     "Lista de las Categorias"
-    categorias: [Category]
+    categories: [Category]
     #  "Lista de Productos"
-    productos: [Product]
+    products: [Product]
+    "Obtener Categoria por ID"
+    category(id: ID!): Category!
+     "Obtener Producto por ID"
+    product(id: ID!): Product!
+    
 }
 
+type Mutation {
+  
+  # Creación Producto
+  createProduct(product: AddProductInput!): Product!
+  # Creación Categoría
+  createCategory(category: AddCategoryInput!): Category!
+  # Creación Cupon
+  createCoupon(coupon: AddCouponInput!): Coupon!
+  # Creación Staff
+  createStaff(staff: AddStaffInput!): Staff!
+  
+  # Modificación Producto
+  updateProduct(product: AddProductInput!): Product!
+  # Modificación Categoría
+  updateCategory(category: AddCategoryInput!): Category!
+  # Modificación Cupon
+  updateCoupon(coupon: AddCouponInput!): Coupon!
+  # Modificación Staff
+  updateStaff(staff: AddStaffInput!): Staff!
+
+  # Eliminación Producto
+  deleteProduct(product: AddProductInput!): Product!
+  # Eliminación Categoría
+  deleteCategory(category: AddCategoryInput!): Category!
+  # Eliminación Cupon
+  deleteCoupon(coupon: AddCouponInput!): Coupon!
+  # Eliminación Staff
+  deleteStaff(staff: AddStaffInput!): Staff!
+
+}
+scalar DateTime
 
 type Category {
   id: ID!
@@ -13,7 +49,7 @@ type Category {
   icon: String!
   slug: String!
   number_of_product: Float
-  creation_date: String!
+  creation_date: DateTime!
 }
       
 type Product {
@@ -31,8 +67,16 @@ type Product {
   views: Int
   sales: Int
   description: String
-  #creation_date: String!
-  slug: String!
+  creation_date: DateTime!
+  slug: String! 
+}
+
+type Card {
+  id: ID!
+  type: String!
+  title: String!
+  cardType: String!
+  lastFourDigit: Float!
 }
 
 type Address {
@@ -41,6 +85,93 @@ type Address {
   title: String!
   location: String!
 }
+
+type Staff {
+  id: ID!
+  first_name: String!
+  last_name: String!
+  contact_number: String!
+  email: String!
+  role: String!
+  name: String
+  creation_date: DateTime!
+}
+
+type Contact {
+  id: ID!
+  type: String!
+  number: String!
+}
+
+type Coupon {
+  id: ID!
+  title: String!
+  number_of_coupon: Int!
+  number_of_used_coupon: Int
+  discount_in_percent: Int!
+  category: String!
+  products: [Product!]
+  code: String!
+  minimum_amount: Int
+  status: String
+  expiration_date: DateTime
+  description: String
+  creation_date: DateTime!
+}
+
+input AddCategoryInput {
+  id: ID
+  name: String!
+  value: String = null
+  type: String = null
+  icon: String
+  slug: String
+  creation_date: DateTime
+}
+
+input AddCouponInput {
+  id: ID
+  title: String!
+  number_of_coupon: Int!
+  discount_in_percent: Int!
+  category: String!
+  products: [AddProductInput!]
+  code: String!
+  minimum_amount: Int = 0
+  status: String = "active"
+  expiration_date: DateTime
+  description: String
+  creation_date: DateTime!
+}
+
+input AddProductInput {
+  id: ID
+  name: String!
+  slug: String!
+  image: String!
+  type: String!
+  unit: String = "1"
+  categories: [AddCategoryInput!]
+  price: Int!
+  salePrice: Float
+  discountInPercent: Int = 0
+  per_unit: Int = 1
+  quantity: Int!
+  description: String
+  creation_date: DateTime!
+}
+
+input AddStaffInput {
+  id: ID
+  first_name: String!
+  last_name: String!
+  contact_number: String!
+  email: String!
+  role: String!
+  name: String
+  creation_date: DateTime!
+}
+
 
 
 

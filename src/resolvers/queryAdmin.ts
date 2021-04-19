@@ -3,12 +3,53 @@ import { database } from '../data/data.store.admin';
 
 const queryAdmin: IResolvers = {
     Query: {
-        categorias(): any {
+        categories(): any {
             return database.categories;
         }
         ,
-        productos(): any {
+        category(__: void, { id }): any {
+            const resultado =  database.categories.filter(categoria => categoria.id === id) [0];
+            if(resultado === undefined) {
+                return {
+                      id: '-1',
+                      name: `No se a encontrado la categoria con el ID ${id}`,
+                      type: '',
+                      icon: '',
+                      slug: '',
+                     number_of_product: 0,
+                     creation_date: ''
+                }
+            }else {
+                return resultado;
+            }
+        }
+        ,
+        products(): any {
             return database.products;
+        },
+        product(__: void, { id }): any {
+            const resultado =  database.products.filter(product => product.id === id) [0];
+            if(resultado === undefined) {
+                return {
+                      id: '-1',
+                      name: `No se a encontrado el producto con el ID ${id}`,
+                      image: '',
+                      type: '',
+                      unit: 0,
+                      categories: [],
+                      price: 0,
+                      salePrice: 0,
+                      discountInPercent: 0,
+                      per_unit: 0,
+                      quantity: 0,
+                      views: 0,
+                      sales: 0,
+                     description: '',
+                     slug: ''
+                }
+            } else {
+                return resultado;
+            }
         }
     }
 }
