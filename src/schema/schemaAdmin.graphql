@@ -3,6 +3,10 @@ type Query {
     categories: [Category]
     #  "Lista de Productos"
     products: [Product]
+     "Lista de Cupones"
+    coupons: [Coupon]
+    "Obtener Coupon por ID"
+    coupon(id: ID!): Coupon!
     "Obtener Categoria por ID"
     category(id: ID!): Category!
      "Obtener Producto por ID"

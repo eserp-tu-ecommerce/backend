@@ -51,6 +51,32 @@ const queryAdmin: IResolvers = {
                 return resultado;
             }
         }
+        ,
+        coupons(): any {
+            return database.coupons;
+        }
+        ,
+        coupon(__: void, { id }): any {
+            const resultado =  database.coupons.filter(coupon => coupon.id === id) [0];
+            if(resultado === undefined) {
+                return {
+                    id: '-1',
+                    title: `No se a encontrado el cupon con el ID ${id}`,
+                    number_of_coupon: 0,
+                    number_of_used_coupon: 0,
+                    discount_in_percent: 0,
+                    products: [],
+                    code: '',
+                    minimum_amount: null,
+                    status: '',
+                    expiration_date: null,
+                    description: '',
+                    creation_date: null
+                }
+            } else {
+                return resultado;
+            }
+        }
     }
 }
 
