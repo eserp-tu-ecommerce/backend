@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "title": "Ramadan Sale",
+      "title": "Promoción Combo 1",
       "number_of_coupon": 20,
       "number_of_used_coupon": 10,
       "discount_in_percent": 15,
@@ -19,7 +19,7 @@
     },
     {
       "id": "2",
-      "title": "Ramadan Sale",
+      "title": "Promoción Familiar 2x1",
       "number_of_coupon": 20,
       "number_of_used_coupon": 10,
       "discount_in_percent": 20,
@@ -37,7 +37,7 @@
     },
     {
       "id": "3",
-      "title": "Cyber Monday Sale",
+      "title": "Pollo + Bebida(Gratis)",
       "number_of_coupon": 20,
       "number_of_used_coupon": 10,
       "discount_in_percent": 10,
@@ -55,7 +55,7 @@
     },
     {
       "id": "4",
-      "title": "Boxing Day Sale",
+      "title": "Promoción Familiar + Papas Fritas(Gratis)",
       "number_of_coupon": 10,
       "number_of_used_coupon": 5,
       "discount_in_percent": 10,
@@ -65,114 +65,6 @@
         }
       ],
       "code": "DISCOUNT10",
-      "minimum_amount": null,
-      "status": "active",
-      "expiration_date": "2021-04-19T22:53:54.810Z",
-      "description": null,
-      "creation_date": "2021-04-19T22:53:54.810Z"
-    },
-    {
-      "id": "5",
-      "title": "Summer Discount",
-      "number_of_coupon": 10,
-      "number_of_used_coupon": 5,
-      "discount_in_percent": 10,
-      "products": [
-        {
-          "id": "1"
-        }
-      ],
-      "code": "SUMMER10",
-      "minimum_amount": null,
-      "status": "active",
-      "expiration_date": "2021-04-19T22:53:54.810Z",
-      "description": null,
-      "creation_date": "2021-04-19T22:53:54.810Z"
-    },
-    {
-      "id": "6",
-      "title": "Winter Discount",
-      "number_of_coupon": 15,
-      "number_of_used_coupon": 10,
-      "discount_in_percent": 10,
-      "products": [
-        {
-          "id": "1"
-        }
-      ],
-      "code": "WINTER10",
-      "minimum_amount": null,
-      "status": "active",
-      "expiration_date": "2021-04-19T22:53:54.810Z",
-      "description": null,
-      "creation_date": "2021-04-19T22:53:54.810Z"
-    },
-    {
-      "id": "7",
-      "title": "Autumn Discount",
-      "number_of_coupon": 15,
-      "number_of_used_coupon": 10,
-      "discount_in_percent": 10,
-      "products": [
-        {
-          "id": "1"
-        }
-      ],
-      "code": "1AUTUMN10",
-      "minimum_amount": null,
-      "status": "active",
-      "expiration_date": "2021-04-19T22:53:54.810Z",
-      "description": null,
-      "creation_date": "2021-04-19T22:53:54.810Z"
-    },
-    {
-      "id": "8",
-      "title": "Winter Discount",
-      "number_of_coupon": 15,
-      "number_of_used_coupon": 10,
-      "discount_in_percent": 10,
-      "products": [
-        {
-          "id": "1"
-        }
-      ],
-      "code": "WINTER10",
-      "minimum_amount": null,
-      "status": "revoked",
-      "expiration_date": "2021-04-19T22:53:54.810Z",
-      "description": null,
-      "creation_date": "2021-04-19T22:53:54.810Z"
-    },
-    {
-      "id": "9",
-      "title": "Winter Sale",
-      "number_of_coupon": 15,
-      "number_of_used_coupon": 10,
-      "discount_in_percent": 15,
-      "products": [
-        {
-          "id": "1"
-        }
-      ],
-      "code": "WINTER15",
-      "minimum_amount": null,
-      "status": "active",
-      "expiration_date": "2021-04-19T22:53:54.810Z",
-      "description": null,
-      "creation_date": "2021-04-19T22:53:54.810Z"
-    },
-    {
-      "id": "10",
-      "title": "Halloween Sale",
-      "number_of_coupon": 20,
-      "number_of_used_coupon": 15,
-      "discount_in_percent": 20,
-      "products": [
-        {
-          "id": "1"
-        }
-      ],
-      "code": "HALLOWEEN20",
       "minimum_amount": null,
       "status": "active",
       "expiration_date": "2021-04-19T22:53:54.810Z",
