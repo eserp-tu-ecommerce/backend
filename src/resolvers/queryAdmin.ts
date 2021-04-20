@@ -77,6 +77,32 @@ const queryAdmin: IResolvers = {
                 return resultado;
             }
         }
+        ,
+        staffs(): any {
+            return database.staffs;
+        }
+        ,
+        staff(__: void, { id }): any {
+            const resultado =  database.staffs.filter(staff => staff.id === id) [0];
+            if(resultado === undefined) {
+                return {
+                    id: '-1',
+                    title: `No se a encontrado el staff con el ID ${id}`,
+                    number_of_staff: 0,
+                    number_of_used_staff: 0,
+                    discount_in_percent: 0,
+                    products: [],
+                    code: '',
+                    minimum_amount: null,
+                    status: '',
+                    expiration_date: null,
+                    description: '',
+                    creation_date: null
+                }
+            } else {
+                return resultado;
+            }
+        }
     }
 }
 

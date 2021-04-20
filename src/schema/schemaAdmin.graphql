@@ -11,6 +11,10 @@ type Query {
     category(id: ID!): Category!
      "Obtener Producto por ID"
     product(id: ID!): Product!
+    "Lista de Staff"
+    staffs: [Staff]
+    "Obtener Staff por ID"
+    staff(id: ID!): Staff!
     
 }
 
@@ -25,23 +29,23 @@ type Mutation {
   # Creación Staff
   createStaff(staff: AddStaffInput!): Staff!
   
-  # Modificación Producto
-  updateProduct(product: AddProductInput!): Product!
-  # Modificación Categoría
-  updateCategory(category: AddCategoryInput!): Category!
-  # Modificación Cupon
-  updateCoupon(coupon: AddCouponInput!): Coupon!
-  # Modificación Staff
-  updateStaff(staff: AddStaffInput!): Staff!
+  # # Modificación Producto
+  # updateProduct(product: AddProductInput!): Product!
+  # # Modificación Categoría
+  # updateCategory(category: AddCategoryInput!): Category!
+  # # Modificación Cupon
+  # updateCoupon(coupon: AddCouponInput!): Coupon!
+  # # Modificación Staff
+  # updateStaff(staff: AddStaffInput!): Staff!
 
-  # Eliminación Producto
-  deleteProduct(product: AddProductInput!): Product!
-  # Eliminación Categoría
-  deleteCategory(category: AddCategoryInput!): Category!
-  # Eliminación Cupon
-  deleteCoupon(coupon: AddCouponInput!): Coupon!
-  # Eliminación Staff
-  deleteStaff(staff: AddStaffInput!): Staff!
+  # # Eliminación Producto
+  # deleteProduct(product: AddProductInput!): Product!
+  # # Eliminación Categoría
+  # deleteCategory(category: AddCategoryInput!): Category!
+  # # Eliminación Cupon
+  # deleteCoupon(coupon: AddCouponInput!): Coupon!
+  # # Eliminación Staff
+  # deleteStaff(staff: AddStaffInput!): Staff!
 
 }
 scalar DateTime
