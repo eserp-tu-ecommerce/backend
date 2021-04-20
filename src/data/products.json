@@ -1,7 +1,7 @@
 [{
     "id": "490",
        "name": "Loap Infery Kids Winter Jacket",
-       "image": "/Loap_infery_kids_winter_jacket_blue_gray.jpg",
+       "image": "1.png",
        "type": "women-cloths",
        "unit": "1 pc(s)",
        "categories": [
@@ -21,12 +21,12 @@
        "views": null,
        "sales": null,
        "description": "Black bandhgala, has a mandarin collar, a full button placket, long sleeves, three pockets, double vented back hem, and has an attached lining",
-       "slug": "Loap_infery_kids_winter_jacket_blue_gray"
+       "slug": "2.png"
      },
      {
        "id": "299",
        "name": "Heritage Special Long Life Milk",
-       "image": "/milk_heritage.jpg",
+       "image": "2.png",
        "type": "grocery",
        "unit": " 2 lb",
        "categories": [
@@ -51,7 +51,7 @@
      {
        "id": "60",
        "name": "Dorothy Perkins Self Striped A Line Dress",
-       "image": "/DOROTHY_PERKINS.jpg",
+       "image": "3.png",
        "type": "women-cloths",
        "unit": "1 pc(s)",
        "categories": [
@@ -76,7 +76,7 @@
      {
        "id": "349",
        "name": "Club House La Grille Seasoning",
-       "image": "/club_house_la_grille_smouldering_smoked_applewood_seasoning.jpg",
+       "image": "4.png",
        "type": "grocery",
        "unit": " 1 pc(s)",
        "categories": [
@@ -101,7 +101,7 @@
      {
        "id": "324",
        "name": "Eva Corn Oil",
-       "image": "/oil_eva.jpg",
+       "image": "5.png",
        "type": "grocery",
        "unit": " 3 lb",
        "categories": [
@@ -126,7 +126,7 @@
      {
        "id": "126",
        "name": "Snikers Snack Size",
-       "image": "/snikers_snacksize.jpg",
+       "image": "6.png",
        "type": "grocery",
        "unit": " 0.1 lb",
        "categories": [
@@ -151,7 +151,7 @@
      {
        "id": "227",
        "name": "Air Wick Essential Oils",
-       "image": "/air_freshner_air_wick_essential_oils.jpg",
+       "image": "7.png",
        "type": "grocery",
        "unit": " 1 pc(s)",
        "categories": [
@@ -176,7 +176,7 @@
      {
        "id": "23",
        "name": "Snapper",
-       "image": "/snapper.jpg",
+       "image": "8.png",
        "type": "grocery",
        "unit": "1 pc(s)",
        "categories": [
@@ -201,7 +201,7 @@
      {
        "id": "175",
        "name": "Taco Bell Diablo Sauce",
-       "image": "/taco_bell_diablo_sauce.jpg",
+       "image": "9.png",
        "type": "grocery",
        "unit": " 7 lb",
        "categories": [
@@ -222,80 +222,5 @@
        "sales": null,
        "description": "In cooking, a sauce is a liquid, cream, or semi-solid food, served on or used in preparing other foods. Most sauces are not normally consumed by themselves; they add flavor, moisture, and visual appeal to a dish.",
        "slug": "taco_bell_diablo_sauce"
-     },
-     {
-       "id": "504",
-       "name": "Raas Waist Coat",
-       "image": "/Raas.jpg",
-       "type": "women-cloths",
-       "unit": "1 pc(s)",
-       "categories": [
-         {
-           "id": "23",
-           "name": "Outer Wear"
-         },
-         {
-           "id": "27",
-           "name": "Waist Coat"
-         }
-       ],
-       "price": 100,
-       "salePrice": 0,
-       "discountInPercent": 0,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "Black bandhgala, has a mandarin collar, a full button placket, long sleeves, three pockets, double vented back hem, and has an attached lining",
-       "slug": "Raas"
-     },
-     {
-       "id": "362",
-       "name": "The Village Bakery Soft White Bread",
-       "image": "/the_village_bakery_danish_Soft_White_Toastie.jpg",
-       "type": "grocery",
-       "unit": " 1 lb",
-       "categories": [
-         {
-           "id": "82",
-           "name": "Breakfast"
-         },
-         {
-           "id": "83",
-           "name": "Bread"
-         }
-       ],
-       "price": 4,
-       "salePrice": 0,
-       "discountInPercent": 0,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "Bread is a staple food prepared from a dough of flour and water, usually by baking. Throughout recorded history it has been a prominent food in large parts of the world and is one of the oldest man-made foods, having been of significant importance since the dawn of agriculture.",
-       "slug": "the_village_bakery_danish_Soft_White_Toastie"
-     },
-     {
-       "id": "523",
-       "name": "ILU Glitter",
-       "image": "/ILU003.jpg",
-       "type": "makeup",
-       "unit": "1 pc",
-       "categories": [
-         {
-           "id": "39",
-           "name": "Eyes"
-         },
-         {
-           "id": "41",
-           "name": "Glitter"
-         }
-       ],
-       "price": 28,
-       "salePrice": 0,
-       "discountInPercent": 0,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "This brilliantly long-wearing sparkle eye shadow combines the perfect mix of pearl and glitter to lavish eyes with incredible luster and shimmer.  With its uniquely lightunit, water-infused texture, Glitter & Glow glides on effortlessly, then dries down smoothly, locking in maximum sparkle with minimal fallout, for eyes with a real wow! factor.",
-       "slug": "ILU003"
      }
 ]

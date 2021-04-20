@@ -11,11 +11,14 @@ const typeAdmin: IResolvers = {
                  });
                  return categoriasLista;
             },
-            image: parent => `https://firebase.goole.com/423cXDSASD/${parent.image}`
+            image: parent => `https://firebasestorage.googleapis.com/v0/b/tuecommerce-9aca3.appspot.com/o/productos%2F100x100%2F${parent.image}?alt=media&token=1894f626-2f2a-4097-8486-6b149e55a321`
 
-            
+           
 
-        }   
+        }
+        
+        
+
         // ,
         // Category: {
         //     products: parent => {

@@ -2,7 +2,9 @@ import { IResolvers } from 'graphql-tools';
 import __ from 'lodash';
 import { database } from '../data/data.store.admin';
 
-const mutation: IResolvers = {
+const mutation : IResolvers = {
+
+    Mutation: {
 
     createProduct(__:void, { product }): any {
         const ItemProducto = {
@@ -26,7 +28,8 @@ const mutation: IResolvers = {
 
         database.products.push(ItemProducto);
         return ItemProducto;
-    },
+    }
+    ,
     createCategory(__:void, { category }): any {
         const ItemCategory = {
             id: String(database.categories.length + 1),
@@ -87,7 +90,7 @@ const mutation: IResolvers = {
     // deleteCoupon(coupon: AddCouponInput!): Coupon!
     // deleteStaff(staff: AddStaffInput!): Staff!
   
-
+  }
   
 
 }
