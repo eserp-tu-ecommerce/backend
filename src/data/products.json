@@ -1,18 +1,14 @@
 [{
     "id": "490",
-       "name": "Loap Infery Kids Winter Jacket",
+       "name": "Pollo 1/4",
        "image": "1.png",
-       "type": "women-cloths",
-       "unit": "1 pc(s)",
+       "type": "Pollo",
+       "unit": "1",
        "categories": [
          {
-           "id": "23",
-           "name": "Outer Wear"
-         },
-         {
-           "id": "24",
-           "name": "Jacket"
+           "id": "1"
          }
+
        ],
        "price": 60,
        "salePrice": 0,
@@ -25,18 +21,13 @@
      },
      {
        "id": "299",
-       "name": "Heritage Special Long Life Milk",
+       "name": "Papás Fritas 250g",
        "image": "2.png",
-       "type": "grocery",
-       "unit": " 2 lb",
+       "type": "Papas Fritas",
+       "unit": "1",
        "categories": [
          {
-           "id": "69",
-           "name": "Dairy"
-         },
-         {
-           "id": "72",
-           "name": "Milk"
+           "id": "2"
          }
        ],
        "price": 5,
@@ -50,18 +41,17 @@
      },
      {
        "id": "60",
-       "name": "Dorothy Perkins Self Striped A Line Dress",
+       "name": "Pollo Entero + Bebida 1lt",
        "image": "3.png",
-       "type": "women-cloths",
-       "unit": "1 pc(s)",
+       "type": "promocion",
+       "unit": "1",
        "categories": [
          {
-           "id": "19",
-           "name": "Women Dress"
+           "id": "2"
+
          },
          {
-           "id": "22",
-           "name": "Single Color"
+           "id": "3"
          }
        ],
        "price": 125,
@@ -75,19 +65,23 @@
      },
      {
        "id": "349",
-       "name": "Club House La Grille Seasoning",
+       "name": "Pollo Entero + Papas Fritas Familiar + Bebida 1lt",
        "image": "4.png",
-       "type": "grocery",
-       "unit": " 1 pc(s)",
+       "type": "promocion",
+       "unit": "1",
        "categories": [
          {
-           "id": "76",
-           "name": "Cooking"
+           "id": "1"
+
          },
          {
-           "id": "80",
-           "name": "Spices"
-         }
+           "id": "2"
+
+         },
+         {
+          "id": "3"
+
+        }
        ],
        "price": 2,
        "salePrice": 0,
@@ -100,17 +94,22 @@
      },
      {
        "id": "324",
-       "name": "Eva Corn Oil",
+       "name": "Combo Familiar Pollo Entero + Papas Fritas 500g + Bebida 2lt",
        "image": "5.png",
-       "type": "grocery",
+       "type": "promocion",
        "unit": " 3 lb",
        "categories": [
          {
-           "id": "76",
+           "id": "1",
            "name": "Cooking"
          },
          {
-           "id": "77",
+           "id": "2",
+           "name": "Oil"
+         }
+         ,
+         {
+           "id": "3",
            "name": "Oil"
          }
        ],
@@ -122,105 +121,5 @@
        "sales": null,
        "description": "An oil is any nonpolar chemical substance that is a viscous liquid at ambient temperatures and is both hydrophobic (does not mix with water, literally water fearing) and lipophilic (mixes with other oils, literally fat loving). Oils have a high carbon and hydrogen content and are usually flammable and surface active.",
        "slug": "oil_eva"
-     },
-     {
-       "id": "126",
-       "name": "Snikers Snack Size",
-       "image": "6.png",
-       "type": "grocery",
-       "unit": " 0.1 lb",
-       "categories": [
-         {
-           "id": "48",
-           "name": "Snacks"
-         },
-         {
-           "id": "50",
-           "name": "Chocolates"
-         }
-       ],
-       "price": 3,
-       "salePrice": 2.4,
-       "discountInPercent": 20,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "Chocolate is a usually sweet, brown food preparation of roasted and ground cacao seeds that is made in the form of a liquid, paste, or in a block, or used as a flavoring ingredient in other foods. ",
-       "slug": "snikers_snacksize"
-     },
-     {
-       "id": "227",
-       "name": "Air Wick Essential Oils",
-       "image": "7.png",
-       "type": "grocery",
-       "unit": " 1 pc(s)",
-       "categories": [
-         {
-           "id": "62",
-           "name": "Home Cleaning"
-         },
-         {
-           "id": "63",
-           "name": "Air Freshner"
-         }
-       ],
-       "price": 20,
-       "salePrice": 15,
-       "discountInPercent": 25,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "Air fresheners are consumer products that typically emit fragrance and are used in homes or commercial interiors such as restrooms, foyers, hallways, vestibules and other smaller indoor areas, as well as larger areas such as hotel lobbies, auto dealerships, medical facilities, public arenas and other large interior spaces. ",
-       "slug": "air_freshner_air_wick_essential_oils"
-     },
-     {
-       "id": "23",
-       "name": "Snapper",
-       "image": "8.png",
-       "type": "grocery",
-       "unit": "1 pc(s)",
-       "categories": [
-         {
-           "id": "9",
-           "name": "Meat Fish"
-         },
-         {
-           "id": "11",
-           "name": "Dried Fish"
-         }
-       ],
-       "price": 40,
-       "salePrice": 32,
-       "discountInPercent": 20,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "The northern red snapper is a species of snapper native to the western Atlantic Ocean including the Gulf of Mexico, where it inhabits environments associated with reefs. This species is commercially important and is also sought-after as a game fish.",
-       "slug": "snapper"
-     },
-     {
-       "id": "175",
-       "name": "Taco Bell Diablo Sauce",
-       "image": "9.png",
-       "type": "grocery",
-       "unit": " 7 lb",
-       "categories": [
-         {
-           "id": "48",
-           "name": "Snacks"
-         },
-         {
-           "id": "55",
-           "name": "Sauce"
-         }
-       ],
-       "price": 8,
-       "salePrice": 0,
-       "discountInPercent": 0,
-       "per_unit": null,
-       "views": null,
-       "sales": null,
-       "description": "In cooking, a sauce is a liquid, cream, or semi-solid food, served on or used in preparing other foods. Most sauces are not normally consumed by themselves; they add flavor, moisture, and visual appeal to a dish.",
-       "slug": "taco_bell_diablo_sauce"
      }
 ]
