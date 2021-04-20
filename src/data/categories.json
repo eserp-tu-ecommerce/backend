@@ -1,242 +1,43 @@
 [
         {
           "id": "1",
-          "name": "Fruits & Vegetables",
-          "type": "grocery",
+          "name": "Pollos",
+          "type": "pollos",
           "icon": "FruitsVegetable",
           "slug": "fruits-and-vegetables",
           "number_of_product": null
         },
         {
-          "id": "9",
-          "name": "Meat & Fish",
-          "type": "grocery",
+          "id": "2",
+          "name": "Papás",
+          "type": "papás",
           "icon": "MeatFish",
           "slug": "meat-and-fish",
           "number_of_product": null
         },
         {
-          "id": "14",
-          "name": "Purse",
-          "type": "bags",
+          "id": "3",
+          "name": "Bebestibles",
+          "type": "bebestibles",
           "icon": "Purse",
           "slug": "purse",
           "number_of_product": null
         },
         {
-          "id": "15",
-          "name": "Hand bags",
-          "type": "bags",
+          "id": "4",
+          "name": "Promociones",
+          "type": "promociones",
           "icon": "HandBags",
           "slug": "hand-bags",
           "number_of_product": null
         },
         {
-          "id": "16",
-          "name": "Shoulder bags",
-          "type": "bags",
+          "id": "5",
+          "name": "Other",
+          "type": "other",
           "icon": "ShoulderBags",
           "slug": "shoulder-bags",
           "number_of_product": null
-        },
-        {
-          "id": "17",
-          "name": "Wallet",
-          "type": "bags",
-          "icon": "Wallet",
-          "slug": "wallet",
-          "number_of_product": null
-        },
-        {
-          "id": "18",
-          "name": "Laptop bags",
-          "type": "bags",
-          "icon": "LaptopBags",
-          "slug": "laptop-bags",
-          "number_of_product": null
-        },
-        {
-          "id": "19",
-          "name": "Women Dress",
-          "type": "women-cloths",
-          "icon": "WomenDress",
-          "slug": "women-dress",
-          "number_of_product": null
-        },
-        {
-          "id": "23",
-          "name": "Outer Wear",
-          "type": "women-cloths",
-          "icon": "OuterWear",
-          "slug": "outer-wear",
-          "number_of_product": null
-        },
-        {
-          "id": "28",
-          "name": "Pants",
-          "type": "women-cloths",
-          "icon": "Pants",
-          "slug": "pants",
-          "number_of_product": null
-        },
-        {
-          "id": "32",
-          "name": "Tops",
-          "type": "women-cloths",
-          "icon": "Tops",
-          "slug": "tops",
-          "number_of_product": null
-        },
-        {
-          "id": "33",
-          "name": "Skirts",
-          "type": "women-cloths",
-          "icon": "Skirts",
-          "slug": "skirts",
-          "number_of_product": null
-        },
-        {
-          "id": "34",
-          "name": "Shirts",
-          "type": "women-cloths",
-          "icon": "Shirts",
-          "slug": "shirts",
-          "number_of_product": null
-        },
-        {
-          "id": "35",
-          "name": "Face",
-          "type": "makeup",
-          "icon": "Face",
-          "slug": "face",
-          "number_of_product": null
-        },
-        {
-          "id": "39",
-          "name": "Eyes",
-          "type": "makeup",
-          "icon": "Eyes",
-          "slug": "eyes",
-          "number_of_product": null
-        },
-        {
-          "id": "43",
-          "name": "Lips",
-          "type": "makeup",
-          "icon": "Lips",
-          "slug": "lips",
-          "number_of_product": null
-        },
-        {
-          "id": "47",
-          "name": "Accessories",
-          "type": "makeup",
-          "icon": "Accessories",
-          "slug": "accessories",
-          "number_of_product": null
-        },
-        {
-          "id": "48",
-          "name": "Snacks",
-          "type": "grocery",
-          "icon": "Snacks",
-          "slug": "snacks",
-          "number_of_product": null
-        },
-        {
-          "id": "57",
-          "name": "Pet Care",
-          "type": "grocery",
-          "icon": "PetCare",
-          "slug": "petcare",
-          "number_of_product": null
-        },
-        {
-          "id": "62",
-          "name": "Home & Cleaning",
-          "type": "grocery",
-          "icon": "HomeCleaning",
-          "slug": "home-cleaning",
-          "number_of_product": null
-        },
-        {
-          "id": "69",
-          "name": "Dairy",
-          "type": "grocery",
-          "icon": "Dairy",
-          "slug": "dairy",
-          "number_of_product": null
-        },
-        {
-          "id": "76",
-          "name": "Cooking",
-          "type": "grocery",
-          "icon": "Cooking",
-          "slug": "cooking",
-          "number_of_product": null
-        },
-        {
-          "id": "82",
-          "name": "Breakfast",
-          "type": "grocery",
-          "icon": "Breakfast",
-          "slug": "breakfast",
-          "number_of_product": null
-        },
-        {
-          "id": "90",
-          "name": "Beverage",
-          "type": "grocery",
-          "icon": "Beverage",
-          "slug": "beverage",
-          "number_of_product": null
-        },
-        {
-          "id": "98",
-          "name": "Beauty & Health",
-          "type": "grocery",
-          "icon": "BeautyHealth",
-          "slug": "healt_beauty",
-          "number_of_product": null
-        },
-        {
-          "id": "107",
-          "name": "Shaving Needs",
-          "type": "makeup",
-          "icon": "ShavingNeeds",
-          "slug": "shaving_needs",
-          "number_of_product": null
-        },
-        {
-          "id": "108",
-          "name": "Oral Care",
-          "type": "makeup",
-          "icon": "OralCare",
-          "slug": "Oral_care",
-          "number_of_product": null
-        },
-        {
-          "id": "109",
-          "name": "Facial Care",
-          "type": "makeup",
-          "icon": "FacialCare",
-          "slug": "face_care",
-          "number_of_product": null
-        },
-        {
-          "id": "110",
-          "name": "Deodarent",
-          "type": "makeup",
-          "icon": "Deodorent",
-          "slug": "deodarent",
-          "number_of_product": null
-        },
-        {
-          "id": "111",
-          "name": "Bath & Oil",
-          "type": "makeup",
-          "icon": "BathOil",
-          "slug": "bath",
-          "number_of_product": null
         }
+     
 ]
