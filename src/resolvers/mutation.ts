@@ -27,14 +27,32 @@ const mutation : IResolvers = {
             slug: product.slug
         }
 
-        //if(database.products.filter(itemProducto => itemProducto.name === product.ItemProducto.name).length === 0 )  
-        
-        database.products.push(ItemProducto);
-        return ItemProducto;
+        if(database.products.filter(itemProducto => itemProducto.name === product.ItemProducto.name).length === 0 )  {
+            database.products.push(ItemProducto);
+            return ItemProducto;
+        }
+        return {
+            id: '-1',
+            name: `Producto ID ${product.id} Ya Existe no puede ser ingresado!`,
+            image: '',
+            type: '',
+            unit: 0,
+            categories: [],
+            price: 0,
+            salePrice: 0,
+            discountInPercent: 0,
+            per_unit: 0,
+            quantity: 0,
+            views: 0,
+            sales: 0,
+           description: '',
+           slug: ''
+          } ;
+       
     }
     ,
     createCategory(__:void, { category }): any {
-        const ItemCategory = {
+        const Item = {
             id: String(database.categories.length + 1),
             name: category.name,
             type: category.type,
@@ -42,14 +60,26 @@ const mutation : IResolvers = {
             slug: category.slug,
             number_of_product: category.number_of_product,
             creation_date: category.creation_date
-
         }
 
-        database.categories.push(ItemCategory);
-        return ItemCategory;
+        if(database.categories.filter(item => item.name === category.Item.name).length === 0 )  {
+            database.categories.push(Item);
+            return Item;
+        } 
+
+        return {
+            id: '-1',
+            name: `Categoria ID ${category.id} ya Existe no puede ser eliminada!`,
+            type: '',
+            icon: '',
+            slug: '',
+            number_of_product: 0,
+            creation_date: ''
+         } 
+        
     },
     createCoupon(__:void, { coupon }): any {
-        const ItemCoupon = {
+        const Item = {
             id: String(database.coupons.length + 1),
             title: coupon.title,
             number_of_coupon: coupon.number_of_coupon,
@@ -64,12 +94,28 @@ const mutation : IResolvers = {
             description: coupon.description,
             creation_date: coupon.creation_date
         }
-
-         database.coupons.push(ItemCoupon);
-         return ItemCoupon;
+        if(database.coupons.filter(item => item.title === coupon.Item.title).length === 0 )  {
+            database.coupons.push(Item );
+            return Item ;
+        }
+        return {
+            id: '-1',
+            title: `Cupon ID ${coupon.id} Ya Existe no puede ser eliminado!`,
+            number_of_coupon: 0,
+            number_of_used_coupon: 0,
+            discount_in_percent: 0,
+            products: [],
+            code: '',
+            minimum_amount: null,
+            status: '',
+            expiration_date: null,
+            description: '',
+            creation_date: null
+          } 
+         
      },
     createStaff(__:void, { staff }): any {
-        const ItemStaff = {
+        const Item = {
             id: String(database.staffs.length + 1),
             first_name: staff.first_name,
             last_name: staff.last_name,
@@ -79,8 +125,26 @@ const mutation : IResolvers = {
             name: staff.name,
             creation_date: staff.creation_date
         }
-        database.staffs.push(ItemStaff);
-        return ItemStaff;
+        if(database.staffs.filter(item => (Item.name+' '+Item.first_name+' '+Item.last_name) === (staff.name+' '+staff.first_name+' '+staff.last_name)).length === 0 )  {
+            database.staffs.push(Item);
+          return Item;
+        } 
+
+        return {
+            id: '-1',
+            title: `Staff ID ${staff.id} ya Existe no puede ser eliminado!`,
+            number_of_staff: 0,
+            number_of_used_staff: 0,
+            discount_in_percent: 0,
+            products: [],
+            code: '',
+            minimum_amount: null,
+            status: '',
+            expiration_date: null,
+            description: '',
+            creation_date: null
+       } 
+
     },
     deleteProduct(__:void, { id }): any {
 
