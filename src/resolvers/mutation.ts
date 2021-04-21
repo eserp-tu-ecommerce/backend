@@ -174,7 +174,7 @@ const mutation : IResolvers = {
         
         return delProduct[0];
     },
-    deleteCategoy(__:void, { id }): any {
+    deleteCategory(__:void, { id }): any {
 
         const delCategory = _.remove(database.categories, function (category) {
             return category.id === id;
@@ -251,6 +251,15 @@ const mutation : IResolvers = {
         if(elementoExiste > -1) {
           const imagen = database.products[elementoExiste].image;
           producto.image = imagen;
+          
+          
+          // ------------------------- codigo nuevo 
+           
+          const name = database.products[elementoExiste].name;
+          producto.name = name;
+          
+          // -------------------------
+          
           database.products[elementoExiste] = producto;
 
           return database.products[elementoExiste];
