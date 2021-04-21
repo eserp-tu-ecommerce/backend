@@ -1,4 +1,5 @@
 import { IResolvers } from 'graphql-tools';
+import _ from 'lodash';
 import __ from 'lodash';
 import { database } from '../data/data.store.admin';
 
@@ -26,6 +27,8 @@ const mutation : IResolvers = {
             slug: product.slug
         }
 
+        //if(database.products.filter(itemProducto => itemProducto.name === product.ItemProducto.name).length === 0 )  
+        
         database.products.push(ItemProducto);
         return ItemProducto;
     }
@@ -79,20 +82,205 @@ const mutation : IResolvers = {
         database.staffs.push(ItemStaff);
         return ItemStaff;
     },
-    
-    // updateProduct(product: AddProductInput!): Product!
-    // updateCategory(category: AddCategoryInput!): Category!
-    // updateCoupon(coupon: AddCouponInput!): Coupon!
-    // updateStaff(staff: AddStaffInput!): Staff!
-  
-    // deleteProduct(product: AddProductInput!): Product!
-    // deleteCategory(category: AddCategoryInput!): Category!
-    // deleteCoupon(coupon: AddCouponInput!): Coupon!
-    // deleteStaff(staff: AddStaffInput!): Staff!
-  
+    deleteProduct(__:void, { id }): any {
+
+        const delProduct = _.remove(database.products, function (producto) {
+            return producto.id === id;
+        });
+
+        if(delProduct[0] === undefined) {
+                  return {
+                      id: '-1',
+                      name: `Producto ID ${id} no Existe no puede ser eliminado!`,
+                      image: '',
+                      type: '',
+                      unit: 0,
+                      categories: [],
+                      price: 0,
+                      salePrice: 0,
+                      discountInPercent: 0,
+                      per_unit: 0,
+                      quantity: 0,
+                      views: 0,
+                      sales: 0,
+                     description: '',
+                     slug: ''
+                    } ;
+        }  
+        
+        return delProduct[0];
+    },
+    deleteCategoy(__:void, { id }): any {
+
+        const delCategory = _.remove(database.categories, function (category) {
+            return category.id === id;
+        });
+
+        if(delCategory[0] === undefined) {
+                return {
+                    id: '-1',
+                    name: `Categoria ID ${id} no Existe no puede ser eliminada!`,
+                    type: '',
+                    icon: '',
+                    slug: '',
+                number_of_product: 0,
+                creation_date: ''
+            } 
+        }
+        
+        return delCategory[0];
+    },
+    deleteCoupon(__:void, { id }): any {
+
+        const delCoupon = _.remove(database.coupons, function (coupon) {
+            return coupon.id === id;
+        });
+
+        if(delCoupon[0] === undefined) {
+                return {
+                    id: '-1',
+                    title: `Cupon ID ${id} no Existe no puede ser eliminado!`,
+                    number_of_coupon: 0,
+                    number_of_used_coupon: 0,
+                    discount_in_percent: 0,
+                    products: [],
+                    code: '',
+                    minimum_amount: null,
+                    status: '',
+                    expiration_date: null,
+                    description: '',
+                    creation_date: null
+            } 
+        }
+        
+        return delCoupon[0];
+    },
+    deleteStaff(__:void, { id }): any {
+
+        const delStaff = _.remove(database.staffs, function (staff) {
+            return staff.id === id;
+        });
+
+        if(delStaff[0] === undefined) {
+               return {
+                    id: '-1',
+                    title: `Staff ID ${id} no Existe no puede ser eliminado!`,
+                    number_of_staff: 0,
+                    number_of_used_staff: 0,
+                    discount_in_percent: 0,
+                    products: [],
+                    code: '',
+                    minimum_amount: null,
+                    status: '',
+                    expiration_date: null,
+                    description: '',
+                    creation_date: null
+               } 
+        } 
+        
+        return delStaff[0];
+    },
+    updateProduct(__:void, { producto }): any {
+        const elementoExiste = _.findIndex(database.products, function (o) {
+            return o.id = producto.id;
+        });
+        if(elementoExiste > -1) {
+          const imagen = database.products[elementoExiste].image;
+          producto.image = imagen;
+          database.products[elementoExiste] = producto;
+
+          return database.products[elementoExiste];
+        }  
+        return {
+            id: '-1',
+            name: `Producto ID ${producto.id} no Existe no puede ser actualizado!`,
+            image: '',
+            type: '',
+            unit: 0,
+            categories: [],
+            price: 0,
+            salePrice: 0,
+            discountInPercent: 0,
+            per_unit: 0,
+            quantity: 0,
+            views: 0,
+            sales: 0,
+           description: '',
+           slug: ''
+        }
+    },
+    updateCategory(__:void, { category }): any {
+        const elementoExiste = _.findIndex(database.categories, function (o) {
+            return o.id = category.id;
+        });
+        if(elementoExiste > -1) {
+          const icon = database.categories[elementoExiste].icon;
+          category.icon = icon;
+          database.categories[elementoExiste] = category;
+          return database.categories[elementoExiste];
+        }  
+        return {
+            id: '-1',
+            name: `Categoria ID ${category.id} no Existe no puede ser actualizada!`,
+            type: '',
+            icon: '',
+            slug: '',
+             number_of_product: 0,
+             creation_date: ''
+         } 
+    },
+    updateCoupon(__:void, { coupon }): any {
+        const elementoExiste = _.findIndex(database.coupons, function (o) {
+            return o.id = coupon.id;
+        });
+        if(elementoExiste > -1) {
+          const description = database.coupons[elementoExiste].description;
+          coupon.description = description;
+          database.categories[elementoExiste] = coupon;
+
+          return database.coupons[elementoExiste];
+        }  
+
+        return {
+            id: '-1',
+            title: `Cupon ID ${coupon.id} no Existe no puede ser actualizado!`,
+            number_of_coupon: 0,
+            number_of_used_coupon: 0,
+            discount_in_percent: 0,
+            products: [],
+            code: '',
+            minimum_amount: null,
+            status: '',
+            expiration_date: null,
+            description: '',
+            creation_date: null
+          } 
+    },
+    updateStaff(__:void, { staff }): any {
+        const elementoExiste = _.findIndex(database.staffs, function (o) {
+            return o.id = staff.id;
+        });
+        if(elementoExiste > -1) {
+          const name = database.staffs[elementoExiste].name;
+          staff.name = name;
+          database.staffs[elementoExiste] = staff;
+
+          return database.staffs[elementoExiste];
+        }  
+
+        return {
+            id: '-1',
+            name: `Staff ID ${staff.id} no Existe no puede ser actualizado!`,
+            type: '',
+            icon: '',
+            slug: '',
+             number_of_product: 0,
+             creation_date: ''
+         } 
+    }
+
   }
   
-
 }
 
 export default mutation;
