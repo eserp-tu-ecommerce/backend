@@ -261,14 +261,14 @@ const mutation : IResolvers = {
         if(elementoExiste > -1) {
           const name = database.staffs[elementoExiste].name;
           staff.name = name;
-          database.categories[elementoExiste] = staff;
+          database.staffs[elementoExiste] = staff;
 
-          return database.categories[elementoExiste];
+          return database.staffs[elementoExiste];
         }  
 
         return {
             id: '-1',
-            name: `Categoria ID ${staff.id} no Existe no puede ser actualizada!`,
+            name: `Staff ID ${staff.id} no Existe no puede ser actualizado!`,
             type: '',
             icon: '',
             slug: '',
