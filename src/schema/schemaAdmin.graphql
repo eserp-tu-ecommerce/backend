@@ -30,22 +30,22 @@ type Mutation {
   createStaff(staff: AddStaffInput!): Staff!
   
   # # Modificación Producto
-  # updateProduct(product: AddProductInput!): Product!
+  updateProduct(product: AddProductInput!): Product!
   # # Modificación Categoría
-  # updateCategory(category: AddCategoryInput!): Category!
+  updateCategory(category: AddCategoryInput!): Category!
   # # Modificación Cupon
-  # updateCoupon(coupon: AddCouponInput!): Coupon!
+  updateCoupon(coupon: AddCouponInput!): Coupon!
   # # Modificación Staff
-  # updateStaff(staff: AddStaffInput!): Staff!
+  updateStaff(staff: AddStaffInput!): Staff!
 
   # # Eliminación Producto
-  # deleteProduct(product: AddProductInput!): Product!
+   deleteProduct(product: AddProductInput!): Product!
   # # Eliminación Categoría
-  # deleteCategory(category: AddCategoryInput!): Category!
+   deleteCategory(category: AddCategoryInput!): Category!
   # # Eliminación Cupon
-  # deleteCoupon(coupon: AddCouponInput!): Coupon!
+   deleteCoupon(coupon: AddCouponInput!): Coupon!
   # # Eliminación Staff
-  # deleteStaff(staff: AddStaffInput!): Staff!
+   deleteStaff(staff: AddStaffInput!): Staff!
 
 }
 scalar DateTime
@@ -54,7 +54,7 @@ type Category {
   id: ID!
   name: String!
   type: String
-  icon: String!
+  icon: String
   slug: String!
   number_of_product: Float
   creation_date: DateTime!
@@ -66,7 +66,7 @@ type Product {
   image: String!
   type: String!
   unit: String!
-  categories: [Category!]!
+  categories: [Category]
   price: Float!
   salePrice: Float!
   discountInPercent: Int!
@@ -113,18 +113,18 @@ type Contact {
 
 type Coupon {
   id: ID!
-  title: String!
-  number_of_coupon: Int!
+  title: String
+  number_of_coupon: Int
   number_of_used_coupon: Int
-  discount_in_percent: Int!
-  category: String!
+  discount_in_percent: Int
+  category: String
   products: [Product!]
-  code: String!
+  code: String
   minimum_amount: Int
   status: String
   expiration_date: DateTime
   description: String
-  creation_date: DateTime!
+  creation_date: DateTime
 }
 
 input AddCategoryInput {
