@@ -27,6 +27,8 @@ const mutation : IResolvers = {
             slug: product.slug
         }
 
+        //if(database.products.filter(itemProducto => itemProducto.name === product.ItemProducto.name).length === 0 )  
+        
         database.products.push(ItemProducto);
         return ItemProducto;
     }
