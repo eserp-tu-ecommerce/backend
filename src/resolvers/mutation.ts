@@ -110,26 +110,6 @@ const mutation : IResolvers = {
         
         return delProduct[0];
     },
-    deleteCategoy(__:void, { id }): any {
-
-        const delCategory = _.remove(database.categories, function (category) {
-            return category.id === id;
-        });
-
-        if(delCategory[0] === undefined) {
-                return {
-                    id: '-1',
-                    name: `Categoria ID ${id} no Existe no puede ser eliminada!`,
-                    type: '',
-                    icon: '',
-                    slug: '',
-                number_of_product: 0,
-                creation_date: ''
-            } 
-        }
-        
-        return delCategory[0];
-    },
     deleteCoupon(__:void, { id }): any {
 
         const delCoupon = _.remove(database.coupons, function (coupon) {
