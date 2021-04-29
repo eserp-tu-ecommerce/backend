@@ -40,8 +40,6 @@ type Mutation {
 
   # # Eliminación Producto
    deleteProduct(product: AddProductInput!): Product!
-  # # Eliminación Categoría
-   deleteCategory(category: AddCategoryInput!): Category!
   # # Eliminación Cupon
    deleteCoupon(coupon: AddCouponInput!): Coupon!
   # # Eliminación Staff
