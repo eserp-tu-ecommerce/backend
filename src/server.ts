@@ -11,7 +11,7 @@ import expressPlayGround from 'graphql-playground-middleware-express';
 
 const app = express();
 
-// app.use('*',cors());
+app.use('*');
 
 app.use(compression());
 
